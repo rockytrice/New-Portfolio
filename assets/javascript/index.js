@@ -22,8 +22,6 @@
 
 
 /*JQUERY FOR NAV BAR*/
-
-
 if ($("nav").is('*')) {
     var elem = $('nav');
     var offset = elem.offset();
