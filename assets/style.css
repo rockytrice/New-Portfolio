@@ -12,7 +12,10 @@ html, body {
     display: none; 
 }
 
-
+h1{
+  font-family: 'Merriweather', serif;
+ 
+}
 .main-screen {
   
   
@@ -191,13 +194,17 @@ section#sec3{
 }
 section#sec4{
   margin: 100px auto 100px auto;
-  height: 400px;
+  height: 480px;
   width: 100%;
   background: lightgray;
   text-align: center;
   padding-top: 300px;
   color: black;
   font-size: 4em;
+  background-image: url(images/photo-1532375672241-878084a41e96.jpeg);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.8px;
 
 }
 #myphoto {
@@ -207,9 +214,8 @@ section#sec4{
   margin-top: -176px;
   margin-left: auto;
 }
-p {
-  font-size: 20px;
-}
+
+  
 .col-md-3 {
   font-size: 12px;
 }
@@ -231,6 +237,10 @@ hr.style2{
 hr.style3{
   border-top: 3px double red;
     width: 90px;
+}
+hr.style4{
+  border-top: 3px double red;
+    width: 120px;
 }
 .container3{
   margin-top: -350px;
@@ -306,13 +316,64 @@ hvrbox,
     flex-wrap: wrap;
     margin-right: -103px;
     margin-left: 224px;
+    margin-top: -67px;
 }
 .fa-linkedin:before {
   color: black;
+  font-size: 40px;
+  color: lightgray;
+
+
 }
 .fa-github:before {
   color: black;
+  font-size: 40px;
+  color: lightgrey;
+
 }
 .fa-facebook:before {
 color: black;
+font-size: 40px;
+color: lightgray;
+
+
+}
+.fa-phone:before{
+  font-size: 30px;
+  color: lightgray;
+
+}
+.fas{
+  font-size: 30px;
+  color: lightgray;
+}
+p{
+  font-size: 20px;
+  color: white;
+  font-family: 'EB Garamond', serif;
+}
+a:hover{
+  color:white;
+}
+.about-me{
+  color: black;
+}
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.work{
+  font-family: 'Merriweather', serif;
+
+}
+#skills{
+  font-family: 'Merriweather', serif;
+
+}
+#contact{
+  font-family: 'Merriweather', serif;
+color: lightgray;
+}
+.footer{
+  margin-top: 132px;
 }

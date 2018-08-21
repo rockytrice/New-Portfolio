@@ -1,23 +1,4 @@
-// function slideSwitch() {
-//     var $active = $('.image.active');
 
-//     if ( $active.length === 0 ) $active = $('.image:last');
-
-//     var $next =  $active.next().length ? $active.next()
-//         : $('.image:first');
-
-//     $active.addClass('last-active');
-        
-//     $next.css({opacity: 0.0})
-//         .addClass('active')
-//         .animate({opacity: 1.0}, 800, function() {
-//             $active.removeClass('active last-active');
-//         });
-// }
-
-// $(function() {
-//     setInterval( "slideSwitch()", 5000 );
-// });
 
 
 

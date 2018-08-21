@@ -9,61 +9,67 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text|EB+Garamond|Merriweather:900" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css" media="screen" type="text/css" />
   <link rel="stylesheet" href="assets/animate.css">
-  <link rel="stylesheet" href="assets/wickedcss.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
 </head>
 
-<body>
-  <nav>
-    <li class="flex-item">
-      <a class="navbar-brand" href="#">
-        <img src="http://www.articleezinedirectory.com/wp-content/uploads/2018/04/how-to-design-a-custom-font-letter-r-youtube-with-cool-letter-r-designs-600x600.jpg"
-          width="30" height="30" class="d-inline-block align-top" alt="image">
-      </a>
-    </li>
-    <li class="flex-item">ABOUT</li>
-    <li class="flex-item">SERVICES</li>
-    <li class="flex-item">PORTFOLIO</li>
-    <li class="flex-item">CONTACT</li>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="http://www.articleezinedirectory.com/wp-content/uploads/2018/04/how-to-design-a-custom-font-letter-r-youtube-with-cool-letter-r-designs-600x600.jpg"
+        width="30" height="30" class="d-inline-block align-top" alt="image">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#sec1">ABOUT </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sec2">SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sec3">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
   </nav>
-  <div class="main-screen">
-    <ul class="slideshow">
-      <li class="image"></li>
-      <li class="image"></li>
-      <li class="image"></li>
-
-    </ul>
+  </ul>
   </div>
   <section id="sec1">
+    <a name="sec1"></a>
+
     <div class="container">
       <div class="row">
         <div class="col-md-5">
-          <img id="myphoto" src="assets/images/Image 8-15-18 at 12.38 AM.jpg" width="450" height="400" alt="photo">
+          <img id="myphoto" src="assets/images/Image 8-15-18 at 12.38 AM.jpg" width="450" height="400" alt="photo" class="responsive">
         </div>
         <div class="col-md-6">
           <span id="about-me">
             <h1>Hi, I'm Roderick Trice
               <hr class="style1">
             </h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+            <p class="about-me"> I am freelance Full Stack Web Developer based in Orlando, Florida. Before becoming a web developer, I was a a
+              professional Basketball player in Europe for 12 years. Eventhough i worked in the sports industry for a number
+              years, i have that same drive and passion about coding. So Whether your next project is an online store, website
+              for your business, or a fullstack application, I'll be ready to help</p>
           </span>
-
-
         </div>
       </div>
   </section>
   <section id="sec2">
+    <a name="skills"></a>
     <div class="container2">
       <header id="skills">This is What I Do
       </header>
-
       <p class="mean-stack">Full Stack javascript MERN Stack
         <hr class="style2">
       </p>
@@ -89,6 +95,7 @@
     </div>
   </section>
   <section id="sec3">
+    <a name="portfolio"></a>
     <div class="container3">
       <header class="work">Portfolio
         <hr class="style3">
@@ -164,89 +171,56 @@
           </div>
 
         </div>
-        <!-- <div class="col-lg-4 col-med-6">
-              <div class="hvrbox">
-                  <a href="https://pioneer18.github.io/GardenHub/">
-                      <img class="card-img-top " src='https://s15.postimg.cc/gig44m04b/screencapture-pioneer18-github-io-_Garden_Hub-2018-08-14-00_02_10.png'
-                      class="img-fluid img-thumbnail" class="hvrbox-layer_bottom">
-                      <div class="hvrbox-layer_top">
-                          <div class="hvrbox-text">
-                              <p>Garden Hub</p>
-                          </div>
-                      </div>
-                  </a>
-              </div> -->
+        <div class="col-lg-4 col-med-6">
+          <div class="hvrbox">
+            <a href="https://rockytrice.github.io/bamazon/">
+              <img class="card-img-top " src='http://g.recordit.co/SDY1a1ImtV.gif' alt='animated' class="img-fluid img-thumbnail" class="hvrbox-layer_bottom">
+              <div class="hvrbox-layer_top">
+                <div class="hvrbox-text">
+                  <p>Bamazon</p>
+                </div>
+              </div>
+            </a>
+          </div>
 
+        </div>
       </div>
-    </div>
-    </div>
-
-    </div>
-
-    </div>
-
-    </div>
-
-
     </div>
   </section>
   <section id="sec4">
+    <a name="contact"></a>
     <div class="container4">
       <header id="contact">Contact Me</header>
+      <hr class="style4">
       <div class="row2">
         <div class="col-med-4">
           <i class="fas fa-phone">Call</i>
           <p>407-620-6374</p>
         </div>
         <div class="col-md-4 offset-md-4">
-            <i class="fas fa-envelope ">Email</i>
-            <p>rocky_trice@yahoo.com</p>
-
-
-
+          <i class="fas fa-envelope ">Email</i>
+          <p>rocky_trice@yahoo.com</p>
         </div>
-        </div>
-
       </div>
     </div>
+    </div>
     <div class="footer">
-        <a href="https://github.com/rockytrice">
-            <i class="fab fa-github"></i>
-        </a>
-        <a href="https://www.facebook.com/rocky.trice">
-            <i class="fab fa-facebook "></i>
-        </a>
-        <a href="https://www.linkedin.com/in/roderick-trice-128a13a2/">
-            <i class="fab fa-linkedin"></i>
-        </a>
+      <a href="https://github.com/rockytrice">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.facebook.com/rocky.trice">
+        <i class="fab fa-facebook "></i>
+      </a>
+      <a href="https://www.linkedin.com/in/roderick-trice-128a13a2/">
+        <i class="fab fa-linkedin"></i>
+      </a>
   </section>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
     crossorigin="anonymous "></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="assets/javascript/index.js"></script>
-
-
-
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-36251023-1']);
-    _gaq.push(['_setDomainName', 'jqueryscript.net']);
-    _gaq.push(['_trackPageview']);
-
-    (function () {
-      var ga = document.createElement('script');
-      ga.type = 'text/javascript';
-      ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
-        '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
 </body>
 
 </html>
