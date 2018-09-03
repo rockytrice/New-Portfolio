@@ -339,6 +339,12 @@ hvrbox,
   background: black;
   color: white;
 }
+.fa-phone{
+  color: white;
+}
+.fa-envelope{
+  color: white;
+}
 a:link {
   text-decoration: none;
 }
