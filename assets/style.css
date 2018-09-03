@@ -318,31 +318,31 @@ hvrbox,
     margin-left: 224px;
     margin-top: -67px;
 }
-.fa-linkedin:before {
-  color: black;
-  font-size: 40px;
-  color: lightgray;
-
-
-}
-.fa-github:before {
-  color: black;
-  font-size: 40px;
-  color: lightgrey;
-
-}
-.fa-facebook:before {
-color: black;
-font-size: 40px;
-color: lightgray;
-
-
-}
-.fa-phone:before{
+.fa {
+  padding: 20px;
   font-size: 30px;
-  color: lightgray;
-
+  width: 63px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github {
+  background: black;
+  color: white;
+}
+a:link {
+  text-decoration: none;
+}
+
 .fas{
   font-size: 30px;
   color: lightgray;
@@ -375,5 +375,6 @@ a:hover{
 color: lightgray;
 }
 .footer{
-  margin-top: 132px;
+  margin-top: 104px;
+  overflow: hidden;
 }
